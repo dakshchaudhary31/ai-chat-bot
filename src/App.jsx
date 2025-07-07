@@ -179,7 +179,7 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col sm:h-screen md:h-screen h-screen bg-gradient-to-tl from-gray-700 via-gray-900 to-black text-white custom-scrollbar">
+    <div className="flex flex-col sm:h-screen md:h-screen h-[90vh] bg-gradient-to-tl from-gray-700 via-gray-900 to-black text-white custom-scrollbar">
       <ToastContainer position="bottom-right" autoClose={2000} />
 
       {/* Header */}
